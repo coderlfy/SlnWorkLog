@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="SystemBusiness.AddressBusiness" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQQAAAAEAAAAAIICAAAAAgAAAEAAAAAEAAAAAAAAAE=</HashCode>
+      <FileName>AddressBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemBusiness.ApplicationUserBusiness" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQAAJAEAAAAAIACAAAAAhAAAAAAAAAEAgAAAAEAAE=</HashCode>
+      <FileName>ApplicationUserBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemBusiness.ErrorLogsBusiness" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQAAAAEAAAAAIACAAAAAgAAAAAAAAAEAAAAAAAACE=</HashCode>
+      <FileName>ErrorLogsBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemBusiness.EventLogsBusiness">
+    <Position X="5.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAAQAAAAEAAAAAIACAAAAAgAAAAAAAAAEACAAAAAAAE=</HashCode>
+      <FileName>EventLogsBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemBusiness.MenuBusiness" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAYAAAAEAQAIIJACAAAAAhAAAAAAAAgEAAAAAAAAAE=</HashCode>
+      <FileName>MenuBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemBusiness.MenuFunctionPointBusiness" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQAAAAEAAAAAIACAAAAAgAAAAAAAAAEAAAAAAQAAE=</HashCode>
+      <FileName>MenuFunctionPointBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemBusiness.OrganizationBusiness" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQAAAAEAAAAAIACAAAAAgAAAAAAAAQEAAAAAAAAAE=</HashCode>
+      <FileName>OrganizationBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemBusiness.RoleControlFunctionPointBusiness">
+    <Position X="8" Y="1" Width="3" />
+    <TypeIdentifier>
+      <HashCode>BAAQAAAAEAAAAIIACAAAAAgAAAAAAAAAEAAAAAAAAAE=</HashCode>
+      <FileName>RoleControlFunctionPointBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemBusiness.RoleControlMenuBusiness" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQAAAAEAAAIAIACAAAAAgAAAAAAAAAEAAAAAACAAE=</HashCode>
+      <FileName>RoleControlMenuBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemBusiness.SystemRoleBusiness" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQAAAAEAAAAAIICAAAAAgAAAAAAAAAEAAAAAAAAAE=</HashCode>
+      <FileName>SystemRoleBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemBusiness.UsbKeyBusiness" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQAAAEEAAAAAIACAAAAAgAAAAAAAAAEAAAAAAAAAE=</HashCode>
+      <FileName>UsbKeyBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

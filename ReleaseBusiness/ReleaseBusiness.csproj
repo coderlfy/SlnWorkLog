@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3578B7CD-3A5C-4783-B51E-40F9CE5E6103}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ReleaseBusiness</RootNamespace>
+    <AssemblyName>ReleaseBusiness</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CollectTypeBusi.cs" />
+    <Compile Include="ProductionCollectBusi.cs" />
+    <Compile Include="ProjectCollectBusi.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="InsideCollectBusi.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessBase\BusinessBase.csproj">
+      <Project>{e0eb4b72-a145-4ddf-9a48-e4e0ea8c6a99}</Project>
+      <Name>BusinessBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExportExcelLib\ExportExcelLib.csproj">
+      <Project>{ebd01a57-02bd-4a52-ab8f-4224aea028d4}</Project>
+      <Name>ExportExcelLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Fundation.Core\Fundation.Core.csproj">
+      <Project>{ae9c2ff5-419f-41a0-b269-a3be0438b09a}</Project>
+      <Name>Fundation.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ReleaseDataLibrary\ReleaseDataLibrary.csproj">
+      <Project>{431ecb83-0872-4652-b6bf-9cb238b5d509}</Project>
+      <Name>ReleaseDataLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ReleaseSqlLibrary\ReleaseSqlLibrary.csproj">
+      <Project>{bd7e3afa-f0ce-411a-980f-634f04e83348}</Project>
+      <Name>ReleaseSqlLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
