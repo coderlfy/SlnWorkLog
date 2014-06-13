@@ -2,7 +2,7 @@
 ***生成器版本：V1.0.1.39969
 ***创建人：bhlfy
 ***创建时间：2013-03-05 15:33:49
-***公司：山西博华科技有限公司
+***公司：山西ICat Studio有限公司
 ***修改人：
 ***修改时间：2013-03-05 15:33:49
 ***文件描述：。
@@ -105,7 +105,7 @@ Sys.App.System.SiteInformationEdit = function (isadd, siteinformationData, curre
                         createTime: new Date(),
                         updated: new Date(),
                         writeTime: new Date(),
-                        copyrightCompany: '山西博华科技有限公司',
+                        copyrightCompany: '山西ICat Studio有限公司',
                         companyTel: '0351-7037628',
                         companyEmail: '13403692778@126.com',
                         registerTitle: '备案信息'

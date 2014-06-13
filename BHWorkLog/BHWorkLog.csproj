@@ -7315,7 +7315,6 @@
     <Content Include="server\book\ui\publisher.js" />
     <Content Include="server\businessimages\header-bg.png" />
     <Content Include="server\businessimages\logo.png" />
-    <Content Include="server\businessimages\logo_bak.png" />
     <Content Include="server\css\common.css" />
     <Content Include="server\css\docs.css" />
     <Content Include="server\handler\CheckCode.ashx" />
@@ -7419,21 +7418,6 @@
     <Content Include="server\ui\worklog\personlog.js" />
     <Content Include="server\ui\worklog\projecttree.js" />
     <Content Include="server\ui\worklog\weeksummary.js" />
-    <Content Include="server\uploadfiles\indexui\22a11dd1-dde9-4d8d-bdfe-cef75f14ccc9.jpg" />
-    <Content Include="server\uploadfiles\links\e6e110e0-72db-4e35-aa2d-78c76d842fbd.jpg" />
-    <Content Include="server\uploadfiles\newsimages\0906ca58-e4b8-4c40-b2e3-b50f066332e7.jpg" />
-    <Content Include="server\uploadfiles\newsimages\18e3c9cb-614e-4125-83bd-63245c8e71e9.jpg" />
-    <Content Include="server\uploadfiles\newsimages\33f09067-0749-4c10-9913-85fdf3ab105c.jpg" />
-    <Content Include="server\uploadfiles\newsimages\454fb8f1-dfe0-452f-b843-8b703ad141dd.jpg" />
-    <Content Include="server\uploadfiles\newsimages\4fc33313-2d80-4db0-944e-dcf4cc192ae9.jpg" />
-    <Content Include="server\uploadfiles\newsimages\80108f63-2343-4d83-9929-95dedc8574d5.jpg" />
-    <Content Include="server\uploadfiles\newsimages\85d5a9c6-d8e3-4e6f-94b2-90badf198e98.jpg" />
-    <Content Include="server\uploadfiles\newsimages\a92d1700-b843-4a0d-8b9c-3b8a6ad5cc7f.jpg" />
-    <Content Include="server\uploadfiles\newsimages\d1068aa6-5abb-4198-a5d7-5bc4e6f7ddd1.jpg" />
-    <Content Include="server\uploadfiles\newsimages\d7688f13-5735-491a-9e59-35c2dc3ef641.jpg" />
-    <Content Include="server\uploadfiles\newsimages\ea41d08d-b756-415b-abfb-a7137a86a783.jpg" />
-    <Content Include="server\uploadfiles\newsimages\ed8d83e6-1ce3-4719-be66-334973688579.jpg" />
-    <Content Include="server\uploadfiles\newsimages\f9298c5e-39e1-47d6-ae73-674940e023f6.jpg" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -8131,7 +8115,6 @@
     <Folder Include="common\handler\" />
     <Folder Include="ext-bak\defineUi\" />
     <Folder Include="kindeditor\attached\" />
-    <Folder Include="server\uploadfiles\credit\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BusinessBase\BusinessBase.csproj">

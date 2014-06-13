@@ -1,7 +1,7 @@
 ﻿/****************************************
 ###创建人：lify
 ###创建时间：2012-10-29
-###公司：山西博华科技有限公司
+###公司：山西ICat Studio有限公司
 ###摘要：针对本软件固定通用参数的管理。
 ****************************************/
 using Fundation.Core;
@@ -28,7 +28,7 @@ namespace ExamSystemConfig.custom
         private static String _appName = "博华考试后台管理程序";
         private static String _middleDBConnectionString = "";
 
-        public const String DevCompanyName = "山西博华科技有限公司";
+        public const String DevCompanyName = "山西ICat Studio有限公司";
         public const String Developer = "Cat";
         public const String HelpTelephone = "0351-7037628";
         public const String DevStartDate = "2013-10-20";

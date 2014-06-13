@@ -1,7 +1,7 @@
 ﻿/****************************************
 ***创建人：bhlfy
 ***创建时间：2013-03-08 08:06:44
-***公司：山西博华科技有限公司
+***公司：山西ICat Studio有限公司
 ***修改人：
 ***修改时间：2013-03-08 08:06:44
 ***文件描述：。
@@ -121,7 +121,7 @@ Sys.App.UserLogin = function () {
     });
 
     Ext.create('Ext.window.Window', {
-        title: '博华科技网上办公协作管理平台',
+        title: 'ICat Studio网上办公协作管理平台',
         iconCls: 'icon-register',
         height: 270,
         width: 500,
